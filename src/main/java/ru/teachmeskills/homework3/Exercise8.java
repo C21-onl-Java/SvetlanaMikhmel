@@ -10,11 +10,11 @@ public class Exercise8 {
     public static void main(String[] args) {
         System.out.println("Введите любое целое положительно число: ");
         Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
+        int num = scanner.nextInt();
         int i;
         int sum = 0;
-        for (i = 1;i <=a; i++)
+        for (i = 1;i <=num; i++)
             sum = sum + i;
-            System.out.println("Сумма чисел в диапазоне от 1 до " + a + " = " + sum);
+            System.out.println("Сумма чисел в диапазоне от 1 до " + num + " = " + sum);
     }
 }
