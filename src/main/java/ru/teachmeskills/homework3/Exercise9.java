@@ -5,8 +5,11 @@ public class Exercise9 {
     //последовательность:
     //7 14 21 28 35 42 49 56 63 70 77 84 91 98.
     public static void main(String[] args) {
-        int i;
-        for (i = 7; i < 100; i+=7)
+        int i = 7;
+        while (i < 100) {
             System.out.print(i + " ");
+            i += 7;
+        }
+
     }
 }
