@@ -13,8 +13,12 @@ public class Exercise8 {
         int num = scanner.nextInt();
         int i;
         int sum = 0;
-        for (i = 1;i <=num; i++)
-            sum = sum + i;
+        if (num > 0) {
+            for (i = 1; i <= num; i++)
+                sum = sum + i;
             System.out.println("Сумма чисел в диапазоне от 1 до " + num + " = " + sum);
+        } else {
+            System.out.println("Вы ввели неверное число");
+        }
     }
 }
