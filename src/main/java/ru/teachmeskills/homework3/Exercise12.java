@@ -8,11 +8,11 @@ public class Exercise12 {
         int sum;
         System.out.println(num1);
         System.out.println(num2);
-        for (int i = 0; i<9; i++) {
-            sum=num1 + num2;
+        for (int i = 0; i < 9; i++) {
+            sum = num1 + num2;
             System.out.println(sum);
-            num1=num2;
-            num2=sum;
+            num1 = num2;
+            num2 = sum;
         }
     }
 }

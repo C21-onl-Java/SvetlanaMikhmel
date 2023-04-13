@@ -15,10 +15,10 @@ public class Exercise13 {
         float sum = scanner.nextFloat();
         System.out.print("Введите количество месяцев: ");
         int month = scanner.nextInt();
-        for (int i = 0; i < month;i++) {
-            sum = sum + (sum * 0.07f);}
-            System.out.println("Итоговая сумма, подлежащая выплате с учетом процентов = "+ " "+sum);
-
+        for (int i = 0; i < month; i++) {
+            sum = sum + (sum * 0.07f);
+        }
+        System.out.println("Итоговая сумма, подлежащая выплате с учетом процентов = " + " " + sum);
 
 
     }

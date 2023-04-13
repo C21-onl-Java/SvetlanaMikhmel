@@ -8,8 +8,8 @@ public class Exercise5 {
     public static void main(String[] args) {
         System.out.println("Введите номер полосы в радуге: ");
         Scanner scanner = new Scanner(System.in);
-        int numcolor = scanner.nextInt();
-        switch (numcolor) {
+        int numColor = scanner.nextInt();
+        switch (numColor) {
             case 1:
                 System.out.println("Красный");
                 break;

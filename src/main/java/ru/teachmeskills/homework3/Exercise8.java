@@ -11,10 +11,9 @@ public class Exercise8 {
         System.out.println("Введите любое целое положительно число: ");
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
-        int i;
         int sum = 0;
         if (num > 0) {
-            for (i = 1; i <= num; i++)
+            for (int i = 1; i <= num; i++)
                 sum = sum + i;
             System.out.println("Сумма чисел в диапазоне от 1 до " + num + " = " + sum);
         } else {

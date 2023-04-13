@@ -5,9 +5,9 @@ public class Exercise10 {
     public static void main(String[] args) {
         int num = 0;
         int i;
-        for (i = 0; i<10; i++) {
+        for (i = 0; i < 10; i++) {
             System.out.print(num + " ");
-            num-=5;
+            num -= 5;
 
         }
 
