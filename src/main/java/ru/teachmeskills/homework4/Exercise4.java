@@ -13,8 +13,8 @@ public class Exercise4 {
         int[] array2 = {1, 5, 7, 15, 56};
         System.out.println(Arrays.toString(array1));
         System.out.println(Arrays.toString(array2));
-        int sum1 = 0;
-        int sum2 = 0;
+        double sum1 = 0;
+        double sum2 = 0;
         for (int i = 0; i < array1.length; i++) {
             sum1 += array1[i];
             sum2 += array2[i];
