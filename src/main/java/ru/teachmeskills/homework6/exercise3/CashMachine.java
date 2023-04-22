@@ -33,7 +33,7 @@ public class CashMachine {
         int num100 = 0;
         int num50 = 0;
         int num20 = 0;
-        if (sum > getBalance() || sum % 10 != 0 || sum / 10 % 10 == 1 || sum / 10 % 10 == 3 || sum / 10 % 10 == 8) {
+        if (sum > getBalance() || sum % 10 != 0 || sum / 10 % 10 == 1 || sum / 10 % 10 == 3 || sum / 10 % 10 == 6 || sum / 10 % 10 == 8) {
             System.out.println("Недостаточно средств на счету или отсутствуют нужные купюры для выдачи");
             return false;
         }
