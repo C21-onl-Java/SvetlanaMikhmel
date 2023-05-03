@@ -27,7 +27,7 @@ public class Main {
         System.out.println(computer1);
         Computer computer2 = new Computer(3000, "HP",
                 new Ram("Dram", "1 Гб"),
-                new Hdd("NJJJJ", "4 Гб", Hdd.Hddtype.Interior));
+                new Hdd("NJJJJ", "4 Гб", Hdd.HddType.Interior));
         System.out.println(computer2);
     }
 }

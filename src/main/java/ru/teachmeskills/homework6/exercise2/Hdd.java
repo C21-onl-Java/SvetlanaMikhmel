@@ -3,20 +3,20 @@ package ru.teachmeskills.homework6.exercise2;
 public class Hdd {
     private String nameHdd;
     private String capacity;
-    private Hddtype type;
+    private HddType type;
 
-    public enum Hddtype {
+    public enum HddType {
         External, Interior
     }
 
     public Hdd() {
         this.nameHdd = "Western Digital WD1005FBYZ";
         this.capacity = "1 Тб";
-        this.type = Hddtype.Interior;
+        this.type = HddType.Interior;
 
     }
 
-    public Hdd(String nameHdd, String capacity, Hddtype type) {
+    public Hdd(String nameHdd, String capacity, HddType type) {
         this.nameHdd = nameHdd;
         this.capacity = capacity;
         this.type = type;
@@ -30,7 +30,7 @@ public class Hdd {
         return capacity;
     }
 
-    public Hddtype getType() {
+    public HddType getType() {
         return type;
     }
 

@@ -8,6 +8,6 @@ public class Main {
         System.out.println("Сумма на счету: " + atm549.getBalance());
         atm549.withdrawMoney(300);
         atm549.withdrawMoney(345);
-        System.out.println(atm549.toString());
+        System.out.println(atm549);
     }
 }
