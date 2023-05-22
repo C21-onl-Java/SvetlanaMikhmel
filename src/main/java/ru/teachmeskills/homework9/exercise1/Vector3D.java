@@ -4,7 +4,7 @@ public class Vector3D {
     private double x;
     private double y;
     private double z;
-    String DESCRIPTION_2D = "Это вектор для трехмерной системы координат";
+    String DESCRIPTION_3D = "Это вектор для трехмерной системы координат";
 
     public Vector3D(double x, double y, double z) {
         this.x = x;
@@ -45,7 +45,7 @@ public class Vector3D {
         return "Vector3D{" +
                 "x=" + x +
                 ", y=" + y +
-                ", z=" + z + DESCRIPTION_2D;
+                ", z=" + z + DESCRIPTION_3D;
     }
 }
 
